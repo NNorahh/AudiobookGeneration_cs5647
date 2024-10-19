@@ -1,0 +1,6 @@
+sid/
+speaker_determination.egg-info/
+*.pt
+*.zip
+models/bert-base-cased/
+*.txt
