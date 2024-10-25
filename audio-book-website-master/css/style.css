@@ -1,0 +1,41 @@
+body {
+  position: relative;
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Public Sans', sans-serif;
+  color: #fff;
+}
+
+:root {
+  --heading-01: 3.157em;
+  --heading-02: 2.369em;
+  --heading-03: 1.777em;
+  --heading-04: 1.333em;
+  --heading-05: 1em;
+  --heading-05: 1em;
+  --body-text-01: 1em;
+  --body-text-02: 0.75em;
+
+  --black21: #D8D8D8;
+  --black48: #A2A2A2;
+  --black74: #595959;
+  --vintage1: #EA7E6E;
+  --vintage2: #403750;
+  --vintage3: #4A9D64;
+  --vintage4: #D4433A;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: inline-block;
+}
+
+@media(min-width: 1440px ) {
+  body {
+    height: 100vh;
+  }
+}
