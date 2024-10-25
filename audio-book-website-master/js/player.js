@@ -1,4 +1,4 @@
-let songSrc = "../audios/track.mp3"
+let songSrc = "../audios/sample.mp3"
 
 const songTitle = document.getElementsByClassName('audio-player-title')
 const fillBar = document.getElementById('fill')
@@ -22,6 +22,10 @@ function playOrPauseSong(){
       song.pause();
       $("#play img").attr("src","./img/play-button.png");
   }
+}
+
+function goToDetailPage(pageUrl) {
+  window.location.href = pageUrl;
 }
 
 function updateTime() {
