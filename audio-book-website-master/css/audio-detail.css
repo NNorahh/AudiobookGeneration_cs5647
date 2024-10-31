@@ -8,86 +8,113 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-  }
-  
-  .audio-detail-container {
+}
+
+.audio-detail-container {
     width: 90%;
-    max-width: 600px;
-    text-align: center;
+    max-width: 800px;
+    text-align: left;
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .back-btn {
+}
+
+.back-btn {
     font-size: 16px;
     color: #333;
     background: none;
     border: none;
     cursor: pointer;
-  }
-  
-  .audio-title {
+    text-align: left;
+}
+
+.audio-title {
     font-size: 24px;
     margin: 10px 0;
-  }
-  
-  audio {
+    text-align: left;
+}
+
+.speaker-name-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+}
+
+.speaker-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+audio {
     width: 100%;
-    margin: 20px 0;
-  }
-  
-  .progress-bar {
+    margin: 0 0;
+}
+
+.progress-bar {
     width: 100%;
     height: 8px;
     background-color: #ddd;
     position: relative;
     border-radius: 4px;
-  }
-  
-  #progress-fill {
+}
+
+#progress-fill {
     width: 0;
     height: 100%;
     background-color: #4caf50;
-  }
-  
-  #current-time {
+}
+
+#current-time {
     font-size: 14px;
     color: #333;
     margin-top: 10px;
-  }
-  
-  .text-display {
-    margin-top: 20px;
+    text-align: left;
+}
+
+.text-display {
+    margin: 100px 0;
     padding: 10px;
     background-color: #eee;
     border-radius: 8px;
     overflow: hidden;
-    height: 100px;
+    height: 200px;
     position: relative;
-  }
-  
-  #scrolling-text {
+    text-align: left;
+}
+
+#scrolling-text {
     position: absolute;
     top: 0;
     animation: scroll-text 30s linear infinite;
-  }
-  .subtitle-container {
+    text-align: left;
+}
+
+.subtitle-container {
     overflow-y: auto;
-    height: 100px;
+    height: 200px;
     padding: 10px;
     font-size: 1.2em;
-  }
-  .subtitle-line {
+    text-align: left;
+}
+
+.subtitle-line {
     transition: color 0.3s;
-  }
-  .subtitle-active {
+    text-align: left;
+}
+
+.subtitle-active {
     color: #ff6347;
-  }  
-  
-  @keyframes scroll-text {
-    from { top: 100px; }
-    to { top: -100%; }
-  }
-  
+}
+
+@keyframes scroll-text {
+    from {
+        top: 100px;
+    }
+    to {
+        top: -100%;
+    }
+}

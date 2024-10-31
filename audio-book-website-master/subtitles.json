@@ -1,0 +1,46 @@
+[{
+        "start": 0,
+        "end": 4,
+        "text": "This is the beginning of the story.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF6347"
+        }
+    },
+    {
+        "start": 5,
+        "end": 9,
+        "text": "It continues with an interesting event. It continues with an interesting event. It continues with an interesting event. It continues with an interesting event. It continues with an interesting event. It continues with an interesting event. It continues with an interesting event.",
+        "speaker": {
+            "speaker_name": "John",
+            "speaker_color": "#4682B4"
+        }
+    },
+    {
+        "start": 10,
+        "end": 15,
+        "text": "The Coffee Morning.",
+        "speaker": {
+            "speaker_name": "Emily",
+            "speaker_color": "#32CD32"
+        }
+    },
+    {
+        "start": 16,
+        "end": 20,
+        "text": "More exciting things are coming.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF6347"
+        }
+    },
+    {
+        "start": 21,
+        "end": 25,
+        "text": "It continues with an interesting event.",
+        "speaker": {
+            "speaker_name": "John",
+            "speaker_color": "#4682B4"
+        }
+    }
+]
