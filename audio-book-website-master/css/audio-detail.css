@@ -81,7 +81,7 @@ audio {
     background-color: #eee;
     border-radius: 8px;
     overflow: hidden;
-    height: 200px;
+    height: 100px;
     position: relative;
     text-align: left;
 }
@@ -95,10 +95,14 @@ audio {
 
 .subtitle-container {
     overflow-y: auto;
-    height: 200px;
+    height: 100px;
     padding: 10px;
     font-size: 1.2em;
     text-align: left;
+}
+
+.subtitle-active {
+    background-color: lightgray;
 }
 
 .subtitle-line {
