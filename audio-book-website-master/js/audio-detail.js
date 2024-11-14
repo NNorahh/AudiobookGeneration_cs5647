@@ -18,7 +18,6 @@ fetch('subtitles.json')
             subtitleLine.setAttribute('data-end', line.end);
             subtitleLine.textContent = line.text;
             subtitleLine.style.color = line.speaker.speaker_color; // 设置角色颜色
-
             subtitles.appendChild(subtitleLine);
         });
         // 监听音频时间更新事件，匹配当前播放时间的字幕
