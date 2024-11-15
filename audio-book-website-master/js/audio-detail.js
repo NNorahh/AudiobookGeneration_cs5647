@@ -4,6 +4,7 @@ const subtitleContainer = document.getElementById('subtitleContainer');
 const subtitles = document.getElementById('subtitles');
 const speakerNameElement = document.getElementById('speakerName');
 
+
 let subtitleData = [];
 let lastUpdateTime = 0; // 用于节流控制
 

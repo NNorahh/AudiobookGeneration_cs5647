@@ -45,7 +45,7 @@
 }
 @media(max-width: 1366px) {
   #content {
-    grid-template-columns: 350px 1fr 1fr 290px;
+    grid-template-columns: 1fr 1fr 290px;
   }
   
 }

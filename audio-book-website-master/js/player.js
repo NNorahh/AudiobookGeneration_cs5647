@@ -1,14 +1,18 @@
-let songSrc = "../audios/sample.mp3";
+
 const songTitle = document.getElementsByClassName('audio-player-title');
 const fillBar = document.getElementById('fill');
 const progressBar = document.getElementById('progressBar');
 const handle = document.getElementById('handle');
 const currentMinutesTime = document.getElementById('current-time-minutes-song');
 
+let songSrc = "../audios/"+"chapter1"+".mp3";
+
+
 window.audioPlayer = new Audio();
 window.audioPlayer.src = songSrc;
 
 window.isSeeking = false; // Global variable to indicate if the user is dragging
+
 
 function playOrPauseSong() {
     if (window.audioPlayer.paused) {

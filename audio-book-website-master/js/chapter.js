@@ -106,4 +106,6 @@ function loadCharacterData(itemId) {
         })
         .catch(error => console.error('Error loading character data:', error));
 }
+
 */
+
