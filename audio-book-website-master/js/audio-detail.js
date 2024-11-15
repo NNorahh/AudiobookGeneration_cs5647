@@ -159,6 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function chapterChange(data_id) {
+    const newAudioSrc = `../audios/chapter${data_id}.mp3`;
+    updateSongSrc(newAudioSrc);
     subtitles.innerHTML = '';
     fetch(`./data/AliceInWonderland/json/${data_id}.txt`)
         .then(response => response.text())
@@ -194,3 +196,16 @@ document.querySelectorAll('.audio-top-item').forEach(item => {
         chapterChange(itemId); // 加载对应的文本数据
     });
 });
+
+function updateSongSrc(newSrc) {
+    // 暂停当前播放
+    window.audioPlayer.pause();
+
+    // 更新音频源
+    window.audioPlayer.src = newSrc;
+    window.audioPlayer.load(); // 重新加载音频文件
+    window.audioPlayer.play(); // 自动播放
+
+    // 更新播放按钮图标为暂停
+    $("#play img").attr("src", "./img/pause-button.png");
+}

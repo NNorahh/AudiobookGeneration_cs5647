@@ -1,0 +1,911 @@
+[
+    {
+        "start": "0.00",
+        "end": "2.26",
+        "text": "CHAPTER VIII. The Queen's Croquet-Ground",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "2.26",
+        "end": "11.28",
+        "text": "A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "11.28",
+        "end": "23.42",
+        "text": "Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, \"Look out now, Five! Don't go splashing paint over me like that!\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "23.42",
+        "end": "27.76",
+        "text": "\"I couldn't help it,\" said Five, in a sulky tone; \"Seven jogged my elbow.\"",
+        "speaker": {
+            "speaker_name": "Five",
+            "speaker_color": "#1F618D"
+        }
+    },
+    {
+        "start": "27.76",
+        "end": "33.09",
+        "text": "On which Seven looked up and said, \"That's right, Five! Always lay the blame on others!\"",
+        "speaker": {
+            "speaker_name": "Seven",
+            "speaker_color": "#1D8348"
+        }
+    },
+    {
+        "start": "33.09",
+        "end": "35.13",
+        "text": "\"_You'd_ better not talk!\" said Five.",
+        "speaker": {
+            "speaker_name": "Five",
+            "speaker_color": "#1F618D"
+        }
+    },
+    {
+        "start": "35.13",
+        "end": "38.01",
+        "text": "\"What for?\" said the one who had spoken first.",
+        "speaker": {
+            "speaker_name": "Two",
+            "speaker_color": "#A569BD"
+        }
+    },
+    {
+        "start": "38.01",
+        "end": "40.84",
+        "text": "\"That's none of _your_ business, Two!\" said Seven.",
+        "speaker": {
+            "speaker_name": "Seven",
+            "speaker_color": "#1D8348"
+        }
+    },
+    {
+        "start": "40.84",
+        "end": "48.16",
+        "text": "\"Yes, it is his business!\" said Five, \"and I'll tell him--it was for bringing the cook tulip-roots instead of onions.\"",
+        "speaker": {
+            "speaker_name": "Five",
+            "speaker_color": "#1F618D"
+        }
+    },
+    {
+        "start": "48.16",
+        "end": "62.99",
+        "text": "Seven flung down his brush, and had just begun \"Well, of all the unjust things--\" when his eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "62.99",
+        "end": "68.20",
+        "text": "\"Would you tell me,\" said Alice, a little timidly, \"why you are painting those roses?\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "68.20",
+        "end": "71.06",
+        "text": "Five and Seven said nothing, but looked at Two.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "71.06",
+        "end": "84.91",
+        "text": "Two began in a low voice, \"Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know.",
+        "speaker": {
+            "speaker_name": "Two",
+            "speaker_color": "#A569BD"
+        }
+    },
+    {
+        "start": "84.91",
+        "end": "88.56",
+        "text": "So you see, Miss, we're doing our best, afore she comes, to--\"",
+        "speaker": {
+            "speaker_name": "Two",
+            "speaker_color": "#A569BD"
+        }
+    },
+    {
+        "start": "88.56",
+        "end": "99.62",
+        "text": "At this moment Five, who had been anxiously looking across the garden, called out \"The Queen! The Queen!\" and the three gardeners instantly threw themselves flat upon their faces.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "99.62",
+        "end": "104.76",
+        "text": "There was a sound of many footsteps, and Alice looked round, eager to see the Queen.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "104.76",
+        "end": "120.89",
+        "text": "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "120.89",
+        "end": "131.52",
+        "text": "After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "131.52",
+        "end": "144.60",
+        "text": "Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "144.60",
+        "end": "154.80",
+        "text": "Then followed the Knave of Hearts, carrying the King's crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "154.80",
+        "end": "174.67",
+        "text": "Alice was rather doubtful whether she ought not to lie down on her face like the three gardeners, but she could not remember ever having heard of such a rule at processions; \"and besides, what would be the use of a procession,\" thought she, \"if people had all to lie down upon their faces, so that they couldn't see it?\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "174.67",
+        "end": "177.36",
+        "text": "So she stood still where she was, and waited.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "177.36",
+        "end": "184.90",
+        "text": "When the procession came opposite to Alice, they all stopped and looked at her, and the Queen said severely \"Who is this?\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "184.90",
+        "end": "189.34",
+        "text": "She said it to the Knave of Hearts, who only bowed and smiled in reply.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "189.34",
+        "end": "195.94",
+        "text": "\"Idiot!\" said the Queen, tossing her head impatiently; and, turning to Alice, she went on, \"What's your name, child?\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "195.94",
+        "end": "206.24",
+        "text": "\"My name is Alice, so please your Majesty,\" said Alice very politely; but she added, to herself, \"Why, they're only a pack of cards, after all. I needn't be afraid of them!\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "206.24",
+        "end": "226.04",
+        "text": "\"And who are these?' said the Queen, pointing to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "226.04",
+        "end": "229.78",
+        "text": "\"How should I know?\" said Alice, surprised at her own courage.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "229.78",
+        "end": "231.58",
+        "text": "\"It's no business of mine.\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "231.58",
+        "end": "239.38",
+        "text": "The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed \"Off with her head! Off--\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "239.38",
+        "end": "244.01",
+        "text": "\"Nonsense!\" said Alice, very loudly and decidedly, and the Queen was silent.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "244.01",
+        "end": "249.79",
+        "text": "The King laid his hand upon her arm, and timidly said \"Consider, my dear: she is only a child!\"",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "249.79",
+        "end": "254.78",
+        "text": "The Queen turned angrily away from him, and said to the Knave \"Turn them over!\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "254.78",
+        "end": "257.66",
+        "text": "The Knave did so, very carefully, with one foot.",
+        "speaker": {
+            "speaker_name": "Knave",
+            "speaker_color": "#BB8FCE"
+        }
+    },
+    {
+        "start": "257.66",
+        "end": "267.45",
+        "text": "\"Get up!\" said the Queen, in a shrill, loud voice, and the three gardeners instantly jumped up, and began bowing to the King, the Queen, the royal children, and everybody else.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "267.45",
+        "end": "270.83",
+        "text": "\"Leave off that!\" screamed the Queen. \"You make me giddy.\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "270.83",
+        "end": "275.92",
+        "text": "And then, turning to the rose-tree, she went on, \"What have you been doing here?\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "275.92",
+        "end": "282.98",
+        "text": "\"May it please your Majesty,\" said Two, in a very humble tone, going down on one knee as he spoke, \"we were trying--\"",
+        "speaker": {
+            "speaker_name": "Two",
+            "speaker_color": "#A569BD"
+        }
+    },
+    {
+        "start": "282.98",
+        "end": "287.23",
+        "text": "\"_I_ see!\" said the Queen, who had meanwhile been examining the roses.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "287.23",
+        "end": "297.09",
+        "text": "\"Off with their heads!\" and the procession moved on, three of the soldiers remaining behind to execute the unfortunate gardeners, who ran to Alice for protection.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "297.09",
+        "end": "302.99",
+        "text": "\"You shan't be beheaded!\" said Alice, and she put them into a large flower-pot that stood near.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "302.99",
+        "end": "310.31",
+        "text": "The three soldiers wandered about for a minute or two, looking for them, and then quietly marched off after the others.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "310.31",
+        "end": "312.21",
+        "text": "\"Are their heads off?\" shouted the Queen.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "312.21",
+        "end": "316.99",
+        "text": "\"Their heads are gone, if it please your Majesty!\" the soldiers shouted in reply.",
+        "speaker": {
+            "speaker_name": "Soldiers",
+            "speaker_color": "#2980B9"
+        }
+    },
+    {
+        "start": "316.99",
+        "end": "320.33",
+        "text": "\"That's right!\" shouted the Queen. \"Can you play croquet?\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "320.33",
+        "end": "325.99",
+        "text": "The soldiers were silent, and looked at Alice, as the question was evidently meant for her.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "325.99",
+        "end": "327.21",
+        "text": "\"Yes!\" shouted Alice.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "327.21",
+        "end": "333.26",
+        "text": "\"Come on, then!\" roared the Queen, and Alice joined the procession, wondering very much what would happen next.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "333.26",
+        "end": "336.91",
+        "text": "\"It's--it's a very fine day!\" said a timid voice at her side.",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "336.91",
+        "end": "341.49",
+        "text": "She was walking by the White Rabbit, who was peeping anxiously into her face.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "341.49",
+        "end": "344.08",
+        "text": "\"Very,\" said Alice: \"--where's the Duchess?\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "344.08",
+        "end": "347.22",
+        "text": "\"Hush! Hush!\" said the Rabbit in a low, hurried tone.",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "347.22",
+        "end": "357.83",
+        "text": "He looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered \"She's under sentence of execution.\"",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "357.83",
+        "end": "359.15",
+        "text": "\"What for?\" said Alice.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "359.15",
+        "end": "361.77",
+        "text": "\"Did you say 'What a pity!'?\" the Rabbit asked.",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "361.77",
+        "end": "366.62",
+        "text": "\"No, I didn't,\" said Alice: \"I don't think it's at all a pity. I said 'What for?'\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "366.62",
+        "end": "369.50",
+        "text": "\"She boxed the Queen's ears--\" the Rabbit began.",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "369.50",
+        "end": "372.00",
+        "text": "Alice gave a little scream of laughter.",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "372.00",
+        "end": "375.26",
+        "text": "\"Oh, hush!\" the Rabbit whispered in a frightened tone.",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "375.26",
+        "end": "379.72",
+        "text": "\"The Queen will hear you! You see, she came rather late, and the Queen said--\"",
+        "speaker": {
+            "speaker_name": "Rabbit",
+            "speaker_color": "#F39C12"
+        }
+    },
+    {
+        "start": "379.72",
+        "end": "392.58",
+        "text": "\"Get to your places!\" shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "392.58",
+        "end": "409.21",
+        "text": "Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "409.21",
+        "end": "464.82",
+        "text": "The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "464.82",
+        "end": "481.74",
+        "text": "The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about, and shouting \"Off with his head!\" or \"Off with her head!\" about once in a minute.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "481.74",
+        "end": "500.05",
+        "text": "Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute, \"and then,\" thought she, \"what would become of me? They're dreadfully fond of beheading people here; the great wonder is, that there's any one left alive!\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "500.05",
+        "end": "521.65",
+        "text": "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin, and she said to herself \"It's the Cheshire Cat: now I shall have somebody to talk to.\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "521.65",
+        "end": "527.46",
+        "text": "\"How are you getting on?\" said the Cat, as soon as there was mouth enough for it to speak with.",
+        "speaker": {
+            "speaker_name": "Cheshire Cat",
+            "speaker_color": "#D35400"
+        }
+    },
+    {
+        "start": "527.46",
+        "end": "530.75",
+        "text": "Alice waited till the eyes appeared, and then nodded.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "530.75",
+        "end": "536.34",
+        "text": "\"It's no use speaking to it,\" she thought, \"till its ears have come, or at least one of them.\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "536.34",
+        "end": "546.11",
+        "text": "In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "546.11",
+        "end": "551.51",
+        "text": "The Cat seemed to think that there was enough of it now in sight, and no more of it appeared.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "551.51",
+        "end": "584.13",
+        "text": "\"I don't think they play at all fairly,\" Alice began, in rather a complaining tone, \"and they all quarrel so dreadfully one can't hear oneself speak--and they don't seem to have any rules in particular; at least, if there are, nobody attends to them--and you've no idea how confusing it is all the things being alive; for instance, there's the arch I've got to go through next walking about at the other end of the ground--and I should have croqueted the Queen's hedgehog just now, only it ran away when it saw mine coming!\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "584.13",
+        "end": "587.49",
+        "text": "\"How do you like the Queen?\" said the Cat in a low voice.",
+        "speaker": {
+            "speaker_name": "Cheshire Cat",
+            "speaker_color": "#D35400"
+        }
+    },
+    {
+        "start": "587.49",
+        "end": "599.73",
+        "text": "\"Not at all,\" said Alice: \"she's so extremely--\" Just then she noticed that the Queen was close behind her, listening: so she went on, \"--likely to win, that it's hardly worth while finishing the game.\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "599.73",
+        "end": "601.70",
+        "text": "The Queen smiled and passed on.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "601.70",
+        "end": "607.94",
+        "text": "\"Who _are_ you talking to?\" said the King, going up to Alice, and looking at the Cat's head with great curiosity.",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "607.94",
+        "end": "612.84",
+        "text": "\"It's a friend of mine--a Cheshire Cat,\" said Alice: \"allow me to introduce it.\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "612.84",
+        "end": "618.48",
+        "text": "\"I don't like the look of it at all,\" said the King: \"however, it may kiss my hand if it likes.\"",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "618.48",
+        "end": "620.62",
+        "text": "\"I'd rather not,\" the Cat remarked.",
+        "speaker": {
+            "speaker_name": "Cheshire Cat",
+            "speaker_color": "#D35400"
+        }
+    },
+    {
+        "start": "620.62",
+        "end": "626.57",
+        "text": "\"Don't be impertinent,\" said the King, \"and don't look at me like that!\" He got behind Alice as he spoke.",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "626.57",
+        "end": "632.55",
+        "text": "\"A cat may look at a king,\" said Alice. \"I've read that in some book, but I don't remember where.\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "632.55",
+        "end": "642.27",
+        "text": "\"Well, it must be removed,\" said the King very decidedly, and he called the Queen, who was passing at the moment, \"My dear! I wish you would have this cat removed!\"",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "642.27",
+        "end": "646.66",
+        "text": "The Queen had only one way of settling all difficulties, great or small.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "646.66",
+        "end": "649.83",
+        "text": "\"Off with his head!\" she said, without even looking round.",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "649.83",
+        "end": "654.68",
+        "text": "\"I'll fetch the executioner myself,\" said the King eagerly, and he hurried off.",
+        "speaker": {
+            "speaker_name": "King",
+            "speaker_color": "#7D3C98"
+        }
+    },
+    {
+        "start": "654.68",
+        "end": "663.85",
+        "text": "Alice thought she might as well go back, and see how the game was going on, as she heard the Queen's voice in the distance, screaming with passion.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "663.85",
+        "end": "678.42",
+        "text": "She had already heard her sentence three of the players to be executed for having missed their turns, and she did not like the look of things at all, as the game was in such confusion that she never knew whether it was her turn or not.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "678.42",
+        "end": "680.80",
+        "text": "So she went in search of her hedgehog.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "680.80",
+        "end": "700.86",
+        "text": "The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other: the only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "700.86",
+        "end": "714.85",
+        "text": "By the time she had caught the flamingo and brought it back, the fight was over, and both the hedgehogs were out of sight: \"but it doesn't matter much,\" thought Alice, \"as all the arches are gone from this side of the ground.\"",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "714.85",
+        "end": "722.79",
+        "text": "So she tucked it away under her arm, that it might not escape again, and went back for a little more conversation with her friend.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "722.79",
+        "end": "740.24",
+        "text": "When she got back to the Cheshire Cat, she was surprised to find quite a large crowd collected round it: there was a dispute going on between the executioner, the King, and the Queen, who were all talking at once, while all the rest were quite silent, and looked very uncomfortable.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "740.24",
+        "end": "754.28",
+        "text": "The moment Alice appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "754.28",
+        "end": "767.07",
+        "text": "The executioner's argument was, that you couldn't cut off a head unless there was a body to cut it off from: that he had never had to do such a thing before, and he wasn't going to begin at _his_ time of life.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "767.07",
+        "end": "773.98",
+        "text": "The King's argument was, that anything that had a head could be beheaded, and that you weren't to talk nonsense.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "773.98",
+        "end": "781.80",
+        "text": "The Queen's argument was, that if something wasn't done about it in less than no time she'd have everybody executed, all round.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "781.80",
+        "end": "786.94",
+        "text": "(It was this last remark that had made the whole party look so grave and anxious.)",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "786.94",
+        "end": "793.54",
+        "text": "Alice could think of nothing else to say but \"It belongs to the Duchess: you'd better ask her about it.\"",
+        "speaker": {
+            "speaker_name": "Alice",
+            "speaker_color": "#FF8D1A"
+        }
+    },
+    {
+        "start": "793.54",
+        "end": "797.76",
+        "text": "\"She's in prison,\" the Queen said to the executioner: \"fetch her here.\"",
+        "speaker": {
+            "speaker_name": "Queen",
+            "speaker_color": "#C70039"
+        }
+    },
+    {
+        "start": "797.76",
+        "end": "800.38",
+        "text": "And the executioner went off like an arrow.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    },
+    {
+        "start": "800.38",
+        "end": "815.16",
+        "text": "The Cat's head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game.",
+        "speaker": {
+            "speaker_name": "Narrator",
+            "speaker_color": "#FF5733"
+        }
+    }
+]
