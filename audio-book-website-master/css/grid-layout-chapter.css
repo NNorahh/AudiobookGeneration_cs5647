@@ -11,12 +11,14 @@
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 1;
 }
 
 #main {
   grid-column-start: 1; 
   grid-column-end: 5; 
+  grid-row-start: 2;
+  grid-row-end: 6;
 }
 
 #leftside {
@@ -38,7 +40,7 @@
 
 @media(max-width: 1280px) {
   #content {
-    grid-template-columns: 1fr 1fr 220px;
+    grid-template-columns: 350px 1fr 1fr 220px;
   }
 }
 @media(max-width: 1366px) {

@@ -27,7 +27,6 @@ function loadSubtitleData(novalName, chapterId, paragraphs) {
                 texts: [{ text: data[0].text, color: data[0].speaker.speaker_color, speaker: data[0].speaker.speaker_name, start: data[0].start, end: data[0].end }],
             };
 
-
             for (let i = 1; i < data.length; i++) {
                 const currentText = data[i].text.trim();
 
@@ -157,4 +156,41 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
         .catch(error => console.error('Error loading subtitles:', error));
+});
+
+function chapterChange(data_id) {
+    subtitles.innerHTML = '';
+    fetch(`./data/AliceInWonderland/json/${data_id}.txt`)
+        .then(response => response.text())
+        .then(txtData => {
+            let paragraphs = splitParagraphs(txtData);
+            console.log('Paragraphs:', paragraphs);
+            loadSubtitleData('AliceInWonderland', data_id, paragraphs)
+                .then(() => {
+                    renderSubtitles(subtitleData);
+                })
+                .catch(error => console.error('Error loading subtitles:', error));
+            // 监听音频时间更新事件，匹配当前播放时间的字幕
+            window.audioPlayer.addEventListener('timeupdate', () => {
+                const currentTime = window.audioPlayer.currentTime;
+                const now = Date.now();
+                // 节流控制，避免频繁更新（每 100ms 更新一次）
+                if (now - lastUpdateTime < 100) {
+                    return;
+                }
+                lastUpdateTime = now;
+                console.log('Running timeupdate...');
+                matchSubtitleToTime(currentTime);
+            });
+        })
+        .catch(error => console.error('Error loading subtitles:', error));
+}
+
+// 示例：点击某个项目时，加载内容
+document.querySelectorAll('.audio-top-item').forEach(item => {
+    item.addEventListener('click', event => {
+        event.preventDefault();
+        let itemId = item.dataset.id; 
+        chapterChange(itemId); // 加载对应的文本数据
+    });
 });

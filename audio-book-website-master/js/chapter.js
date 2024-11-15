@@ -17,6 +17,7 @@ function toggleLeftside() {
 //在项目根目录打开终端并运行 python -m http.server
 //访问 http://localhost:8000 以查看项目。
 
+/*
 function loadTextData(itemId) {
     fetch('../data/textData.json')
         .then(response => {
@@ -106,12 +107,5 @@ function loadCharacterData(itemId) {
         .catch(error => console.error('Error loading character data:', error));
 }
 
-// 示例：点击某个项目时，加载内容
-document.querySelectorAll('.audio-top-item').forEach(item => {
-    item.addEventListener('click', event => {
-        event.preventDefault();
-        const itemId = item.getAttribute('data-id');
-        loadTextData(itemId); // 加载对应的文本数据
-        loadCharacterData(itemId); // 同时加载角色数据
-    });
-});
+*/
+
