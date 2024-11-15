@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Content</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid-layout-chapter.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/leftside.css">
+    <link rel="stylesheet" href="css/side.css">
+    <link rel="stylesheet" href="css/audio-detail.css">
+    <!-- <link rel="stylesheet" href="css/text.css"> -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <nav id="nav">
+            <!-- Tabs -->
+            <ul class="tabs">
+                <li class="tab active-tab" onclick="toggleLeftside(this)"><a href="#">Chapter</a></li>
+                <!-- <li class="tab" onclick=activeTab(this)><a href="#">Radio</a></li> -->
+                <li class="tab" onclick=activeTab(this)><a href="index.html">Back to Home</a></li>
+            </ul>
+            <!-- Nav Buttons -->
+            <div class="buttons">
+                <form class="search-field" action="#">
+                    <input class="hidden" type="text" placeholder="Search" name="search" id="search">
+                    <div class="search-button" id="button-search"><img src="./img/search.png" alt="Search button"></div>
+                </form>
+                <a href="#" class="user">
+                    <img src="./img/user-img.png" alt="User's image">
+                </a>
+            </div>
+        </nav>
+
+        <aside id="leftside" style="display: none;">
+            <div class="top-list">
+                <h3 class="top-list-title">Table of Content</h3>
+                <a href="#" class="audio-top-item" data-id="1">
+                    <img src="img/audio_cover_smaill/1.png" class="audio-image">
+                    <h2 class="audio-top-title">Chapter 1</h2>
+                </a>
+                <a href="#" class="audio-top-item" data-id="2">
+                    <img src="img/audio_cover_smaill/2.png" class="audio-image">
+                    <h2 class="audio-top-title">Chapter 2</h2>
+                </a>
+                <a href="#" class="audio-top-item">
+                    <img src="img/audio_cover_smaill/3.png" class="audio-image">
+                    <h2 class="audio-top-title">Nature Listener</h2>
+                </a>
+                <a href="#" class="audio-top-item">
+                    <img src="img/audio_cover_smaill/4.png" class="audio-image">
+                    <h2 class="audio-top-title">Bad Vilent</h2>
+                </a>
+                <a href="#" class="audio-top-item">
+                    <img src="img/audio_cover_smaill/5.png" class="audio-image">
+                    <h2 class="audio-top-title">Self Controll</h2>
+                </a>
+                <a href="#" class="audio-top-item">
+                    <img src="img/audio_cover_smaill/5.png" class="audio-image">
+                    <h2 class="audio-top-title">Self Controll</h2>
+                </a>
+                <a href="#" class="audio-top-item">
+                    <img src="img/audio_cover_smaill/5.png" class="audio-image">
+                    <h2 class="audio-top-title">Self Controll</h2>
+                </a>
+            </div>
+        </aside>
+
+        <main id="main">
+            <div class="content-row">
+                <div class="title-row">
+                    <h1 class="title1">The Coffee Morning</h1>
+                </div>
+            </div>
+            <section class="audio-detail-container">
+                <!-- <h1 class="audio-title">The Coffee Morning</h1> -->
+                <div id="subtitleContainer" class="subtitle-container">
+                    <div id="subtitles"></div>
+                </div>
+
+                <!-- <audio id="audioPlayer" controls src="./audios/sample.mp3"></audio> -->
+                <!-- Row of Audios
+            <div class="content-row">
+                <div class="title-row">
+                    <h1 class="title1">The Coffee Morning</h1>
+                </div>
+
+                <div class="textcontainer" id="textContainer">
+                    <p> "Siddhartha," he said, "we are old, and we may never meet again. My dear friend, I believe you have found peace, but I have not yet found it. Beloved one, tell me once more something I can understand! Send me on my way. Siddhartha,
+                </div> -->
+        </main>
+
+        <aside id="side">
+            <!-- List of Audios -->
+            <h2>Characters</h2>
+            <div class="character">
+                <p>The Coffee Morning</p>
+                <p>The Coffee Morning</p>
+            </div>
+        </aside>
+    </div>
+
+    <section id="audio-player">
+        <h3 class="audio-player-title">Alice in WonderLand</h3>
+        <div class="speaker-name-container">
+            <p id="speakerName" class="speaker-name">Speaker</p>
+        </div>
+        <!-- <audio id="audioPlayer" style="display:none;"></audio> -->
+        <div class="controllers">
+            <div class="bar-and-time">
+                <div class="progress-bar" id="progressBar">
+                    <div id="fill"></div>
+                    <div class="handle" id="handle"></div>
+                </div>
+                <div id="current-time-song">
+                    <span id="current-time-minutes-song">00:00 / 00:00</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="pre" onclick="pre()"><img src="./img/previous-button.png" alt="previous button"></button>
+                <button id="play" onclick="playOrPauseSong()"><img src="./img/play-button.png" alt="play button"></button>
+                <button id="next" onclick="next()"><img src="./img/next-button.png" alt="next button"></button>
+            </div>
+        </div>
+        <button id="favorite" onclick="favorite()"><img src="./img/favorite-button.png" alt="Favorite button"></button>
+
+    </section>
+
+    <script src="./js/jquery-min.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/chapter.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/audio-detail.js"></script>
+</body>
+
+</html>
