@@ -1,0 +1,36 @@
+#leftside {
+    margin-right: 1em;
+    background-color:grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 75vh; /* 设置你想要的固定高度 */
+    overflow-y: auto; /* 超出时显示垂直滚动条 */
+}
+
+#leftside .top-list {
+    margin-top: 1em;
+}
+#leftside .top-list .top-list-title {
+    font-size: var(--headin-05);
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+#leftside .top-list .audio-top-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(196, 196, 196, .01);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    color: #ffffff;
+    text-decoration: none;
+}
+#leftside .top-list .audio-top-item h2 {
+    margin-left: 1em;
+    font-size: var(--body-text-01);
+}
+
+@media(max-width: 1366px ) {
+    #aside {
+        margin-left: 1.5em;
+    }
+}    
