@@ -113,6 +113,18 @@ function matchSubtitleToTime(currentTime) {
                     span.classList.add('subtitle-active');
                     speakerNameElement.textContent = textPart.speaker; // 更新说话人
 
+
+                    document.querySelectorAll('.character-list p').forEach(characterItem => {
+                        characterItem.classList.remove('character-active');
+                    });
+                    // 查找对应说话人并添加高亮背景
+                    const matchingCharacter = Array.from(document.querySelectorAll('.character-list p')).find(characterItem =>
+                        characterItem.textContent.trim() === textPart.speaker
+                    );
+                    if (matchingCharacter) {
+                        matchingCharacter.classList.add('character-active'); // 为匹配的角色添加高亮
+                    }
+
                     // 只滚动第一次找到的匹配
                     if (!firstMatchFound) {
                         console.log('Scrolling into view for first match found...');
@@ -130,24 +142,48 @@ function matchSubtitleToTime(currentTime) {
     });
 }
 
+
+function fetchTextData(url) {
+    return fetch(url)
+        .then(response => response.text())
+        .then(txtData => splitParagraphs(txtData))
+        .catch(error => {
+            console.error('Error fetching text data:', error);
+            throw error;
+        });
+}
+
 // 主体函数
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('./data/AliceInWonderland/chapters/1.txt')
-        .then(response => response.text())
-        .then(txtData => {
-            let paragraphs = splitParagraphs(txtData);
+    fetch(`./data/AliceInWonderland/characters/1.json`)
+        .then(response => response.json())
+        .then(characters => {
+            const characterList = document.querySelector('.character-list');
+            characterList.innerHTML = ''; // 清空现有内容
+            characters.forEach(character => {
+                const characterItem = document.createElement('p');
+                characterItem.textContent = character.character_name;
+                characterItem.style.color = character.character_color;
+                characterList.appendChild(characterItem);
+            });
+        })
+        .catch(error => console.error('Error loading characters:', error));
+
+    fetchTextData('./data/AliceInWonderland/chapters/1.txt')
+        .then(paragraphs => {
             console.log('Paragraphs:', paragraphs);
             loadSubtitleData('AliceInWonderland', 1, paragraphs)
                 .then(() => {
                     renderSubtitles(subtitleData);
                 })
                 .catch(error => console.error('Error loading subtitles:', error));
+
             // 监听音频时间更新事件，匹配当前播放时间的字幕
             window.audioPlayer.addEventListener('timeupdate', () => {
                 const currentTime = window.audioPlayer.currentTime;
                 const now = Date.now();
-                // 节流控制，避免频繁更新（每 100ms 更新一次）
-                if (now - lastUpdateTime < 100) {
+                // 节流控制，避免频繁更新（每 10ms 更新一次）
+                if (now - lastUpdateTime < 10) {
                     return;
                 }
                 lastUpdateTime = now;
@@ -162,22 +198,35 @@ function chapterChange(data_id) {
     const newAudioSrc = `../audios/chapter${data_id}.mp3`;
     updateSongSrc(newAudioSrc);
     subtitles.innerHTML = '';
-    fetch(`./data/AliceInWonderland/json/${data_id}.txt`)
-        .then(response => response.text())
-        .then(txtData => {
-            let paragraphs = splitParagraphs(txtData);
+
+    fetch(`./data/AliceInWonderland/characters/${data_id}.json`)
+        .then(response => response.json())
+        .then(characters => {
+            const characterList = document.querySelector('.character-list');
+            characterList.innerHTML = ''; // 清空现有内容
+            characters.forEach(character => {
+                const characterItem = document.createElement('p');
+                characterItem.textContent = character.character_name;
+                characterItem.style.color = character.character_color;
+                characterList.appendChild(characterItem);
+            });
+        })
+        .catch(error => console.error('Error loading characters:', error));
+
+
+    fetchTextData(`./data/AliceInWonderland/chapters/${data_id}.txt`)
+        .then(paragraphs => {
             console.log('Paragraphs:', paragraphs);
             loadSubtitleData('AliceInWonderland', data_id, paragraphs)
                 .then(() => {
                     renderSubtitles(subtitleData);
                 })
                 .catch(error => console.error('Error loading subtitles:', error));
-            // 监听音频时间更新事件，匹配当前播放时间的字幕
             window.audioPlayer.addEventListener('timeupdate', () => {
                 const currentTime = window.audioPlayer.currentTime;
                 const now = Date.now();
-                // 节流控制，避免频繁更新（每 100ms 更新一次）
-                if (now - lastUpdateTime < 100) {
+                // 节流控制，避免频繁更新（每 10ms 更新一次）
+                if (now - lastUpdateTime < 10) {
                     return;
                 }
                 lastUpdateTime = now;
@@ -186,13 +235,37 @@ function chapterChange(data_id) {
             });
         })
         .catch(error => console.error('Error loading subtitles:', error));
+    // fetch(`./data/AliceInWonderland/json/${data_id}.txt`)
+    //     .then(response => response.text())
+    //     .then(txtData => {
+    //         let paragraphs = splitParagraphs(txtData);
+    //         console.log('Paragraphs:', paragraphs);
+    //         loadSubtitleData('AliceInWonderland', data_id, paragraphs)
+    //             .then(() => {
+    //                 renderSubtitles(subtitleData);
+    //             })
+    //             .catch(error => console.error('Error loading subtitles:', error));
+    //         // 监听音频时间更新事件，匹配当前播放时间的字幕
+    //         window.audioPlayer.addEventListener('timeupdate', () => {
+    //             const currentTime = window.audioPlayer.currentTime;
+    //             const now = Date.now();
+    //             // 节流控制，避免频繁更新（每 10ms 更新一次）
+    //             if (now - lastUpdateTime < 10) {
+    //                 return;
+    //             }
+    //             lastUpdateTime = now;
+    //             console.log('Running timeupdate...');
+    //             matchSubtitleToTime(currentTime);
+    //         });
+    //     })
+    //     .catch(error => console.error('Error loading subtitles:', error));
 }
 
 // 示例：点击某个项目时，加载内容
 document.querySelectorAll('.audio-top-item').forEach(item => {
     item.addEventListener('click', event => {
         event.preventDefault();
-        let itemId = item.dataset.id; 
+        let itemId = item.dataset.id;
         chapterChange(itemId); // 加载对应的文本数据
     });
 });

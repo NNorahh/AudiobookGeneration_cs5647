@@ -1,10 +1,13 @@
-[
-    {
+[{
         "character_name": "Narrator",
-        "character_color": "#8696a7"
+        "character_color": "#282B3E"
     },
     {
         "character_name": "Alice",
-        "character_color": "#a27e7e"
+        "character_color": "#F77E66"
+    },
+    {
+        "character_name": "Rabbit",
+        "character_color": "#1E90FF"
     }
 ]
