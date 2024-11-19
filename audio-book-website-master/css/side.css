@@ -1,34 +1,43 @@
 #side {
-  margin-left: 1em;
-  margin-top: 3.5em;
+    margin-left: 1em;
+    margin-top: 3.5em;
 }
 
 #side h2 {
-  font-size: 1.75em;
-  font-weight: bold;
+    font-size: 1.75em;
+    font-weight: bold;
 }
 
-#side .character {
-  margin-top: 0.5em;
-  width: 200px;
-  border-bottom: 2px solid rgba(196, 196, 196, .01);
-  margin-bottom: 1em;
-  padding-top: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  color: #ffffff;
-  text-decoration: none;
-  background-color: grey;
-  border-radius: 5px;
-  line-height: 2;
-  font-size: 1.25em;
-  height: 60vh; /* 设置你想要的固定高度 */
-  overflow-y: auto; /* 超出时显示垂直滚动条 */
+#side .character-list {
+    margin-top: 0.5em;
+    width: 200px;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #ffffff;
+    /* 整个列表的背景色 */
+    border-radius: 5px;
+    height: 60vh;
+    /* 固定高度，保持列表大小一致 */
+    overflow-y: auto;
+    /* 超出时显示垂直滚动条 */
+    line-height: 1.5;
+    /* 行高，便于阅读 */
+    font-size: 1.25em;
+    /* 调整字体大小 */
 }
 
-@media(max-width: 1366px ) {
-  #aside {
-    margin-left: 1.5em;
-  }
+#side .character-list p {
+    margin: 0.5em 0;
+    /* 每个角色项之间的间距 */
+}
+
+.character-active {
+    background-color: #D3D3D3;
+    font-weight: bold;
+}
+
+@media(max-width: 1366px) {
+    #aside {
+        margin-left: 1.5em;
+    }
 }

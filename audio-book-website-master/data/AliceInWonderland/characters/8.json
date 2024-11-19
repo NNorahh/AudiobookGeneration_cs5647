@@ -1,0 +1,46 @@
+[
+    {
+        "character_name": "Narrator",
+        "character_color": "#282B3E"
+    },
+    {
+        "character_name": "Five",
+        "character_color": "#1F618D"
+    },
+    {
+        "character_name": "Seven",
+        "character_color": "#1D8348"
+    },
+    {
+        "character_name": "Two",
+        "character_color": "#A569BD"
+    },
+    {
+        "character_name": "Alice",
+        "character_color": "#FF8D1A"
+    },
+    {
+        "character_name": "Queen",
+        "character_color": "#C70039"
+    },
+    {
+        "character_name": "King",
+        "character_color": "#7D3C98"
+    },
+    {
+        "character_name": "Knave",
+        "character_color": "#BB8FCE"
+    },
+    {
+        "character_name": "Soldiers",
+        "character_color": "#2980B9"
+    },
+    {
+        "character_name": "Rabbit",
+        "character_color": "#F39C12"
+    },
+    {
+        "character_name": "Cheshire Cat",
+        "character_color": "#D35400"
+    }
+]
